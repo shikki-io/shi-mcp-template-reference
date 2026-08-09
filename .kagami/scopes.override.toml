@@ -1,0 +1,13 @@
+# .kagami/scopes.override.toml — committed scope source.
+# Migrated from the RETIRED .kagami/scopes.yaml (shi-qa#158) on 2026-08-09.
+#
+# scopes.toml is the GENERATED cache (kagami regenerates it); this file is
+# the hand-maintained source. Never edit scopes.toml directly.
+
+[[scopes]]
+name = "shi-mcp-template-reference"
+language = "swift"
+package_path = "."
+test_file_patterns = ["**/*Tests.swift"]
+timeout = 300
+description = "shi-mcp-template-reference customer MCP — sample PingTool and server composition. Scaffolded by shi-agency mcp new. Version 0.1.0."
